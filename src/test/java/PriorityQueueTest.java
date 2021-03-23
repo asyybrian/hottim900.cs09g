@@ -25,7 +25,7 @@ public class PriorityQueueTest{
         PriorityQueue pqTester = new PriorityQueue();
         for (int e : random_array) {
             // offer: Inserts the specified element into this priority queue.
-            pqTester.offer(e+1);
+            pqTester.offer(e);
         }
         for (int e : correct_array) {
             // poll: Retrieves and removes the head of this queue, or returns null if this queue is empty.
